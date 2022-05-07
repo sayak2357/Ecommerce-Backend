@@ -1,0 +1,18 @@
+{
+    "development": {
+        "database": "ecommerce",
+        "username": "root",
+        "password": "test123",
+        "dialect": {
+            "dialect": "mysql",
+            "host": "localhost"
+        },
+        "pool":{
+            "max":3,
+            "min":0,
+            "acquire":  20000,
+            "idle": 10000
+        }
+
+    }
+}
